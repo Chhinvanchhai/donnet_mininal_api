@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Vanchhai\\c_minial_api\\c_minial_api.csproj": {}
+    "D:\\Vanchhai\\c_minial_api\\c_minial_api.csproj": {}
   },
   "projects": {
-    "d:\\Vanchhai\\c_minial_api\\c_minial_api.csproj": {
+    "D:\\Vanchhai\\c_minial_api\\c_minial_api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Vanchhai\\c_minial_api\\c_minial_api.csproj",
+        "projectUniqueName": "D:\\Vanchhai\\c_minial_api\\c_minial_api.csproj",
         "projectName": "c_minial_api",
-        "projectPath": "d:\\Vanchhai\\c_minial_api\\c_minial_api.csproj",
+        "projectPath": "D:\\Vanchhai\\c_minial_api\\c_minial_api.csproj",
         "packagesPath": "C:\\Users\\24187\\.nuget\\packages\\",
-        "outputPath": "d:\\Vanchhai\\c_minial_api\\obj\\",
+        "outputPath": "D:\\Vanchhai\\c_minial_api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\24187\\AppData\\Roaming\\NuGet\\NuGet.Config",

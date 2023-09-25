@@ -28,7 +28,7 @@ app.UseSwaggerUI(c =>
 
 var userController = new UserController();
 
-app.MapGet("/", () => "User");
+app.MapGet("/", () => new Version("1.0.0", "Dotnet api"));
 
 app.MapGet("/u", async (ShopDb db) => await db.Users.ToListAsync());
 
@@ -64,7 +64,14 @@ app.MapGet("/user", () =>
 }
 );
 
+app.MapGet("/te", () =>
+{
+    return userController.getuser();
+}
+);
+
 
 app.Run();
 
 // record Test(string Name);
+record Version(string version, string name);
